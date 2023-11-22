@@ -12,7 +12,7 @@
 **Flickr_8k_text:** https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/Flickr8k_text.zip
 
 # Data Cleaning
-I needed to clean it up so that it was usable for our model. I made the following changes:
+I needed to clean it up so that it was usable for the model. I made the following changes:
 
 *	Removed Remove dash (-) from captions.
 *	Converted captions to lowercase.
@@ -23,7 +23,7 @@ I needed to clean it up so that it was usable for our model. I made the followin
 
 # Xception Pretrained Model:
 The image features will be extracted from Xception - pre-trained model that have been already trained on large datasets-.
-I needed to preprocess the input image first so that it was usable for our model. I made the following changes:
+I needed to preprocess the input image first so that it was usable for the model. I made the following changes:
 
 *	Resized every image to (299, 299) -Xception's default input size-.
 *	Added an extra dimension to the array to represent the batch size, because Xception is designed to process images in batches.
@@ -55,6 +55,18 @@ I used the Keras Model from Functional API. It will consist of three major parts
 * The final layer will contain the number of nodes equal to our vocabulary size.
 
 Visual representation of the final model is given below
-![alt text](https://github.com/amraskar/Image-Caption-Generator/blob/f174754b5b16057dc232669d2451e8c867304564/model.png "Number of Fresh, Certified Fresh and Rotten Movies")
+![alt text](https://github.com/amraskar/Image-Caption-Generator/blob/f174754b5b16057dc232669d2451e8c867304564/model.png "Visual representation of the final model")
 
 
+# The Final Result
+Example 1:
+Caption: start race car driving through the forest end
+![alt text](https://github.com/amraskar/Image-Caption-Generator/blob/2a71adb7f17bdeafbce160501fda5ca0f6a03122/Example_1.png "Example 1")
+
+Example 2:
+Caption: start white dog is running through the water end
+![alt text](https://github.com/amraskar/Image-Caption-Generator/blob/f174754b5b16057dc232669d2451e8c867304564/Example_2.png "Example 2")
+
+Example 3:
+Caption: start man is climbing up rock face end
+![alt text](https://github.com/amraskar/Image-Caption-Generator/blob/f174754b5b16057dc232669d2451e8c867304564/Example_3.png "Example 3")
