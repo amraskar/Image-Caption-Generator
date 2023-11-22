@@ -6,3 +6,8 @@
 ## Code and Resources Used 
 **Python Version:** 3.11  
 **Packages:** string, os, PIL, pickle, numpy, matplotlib, tensorflow, keras
+
+## Dataset Used 
+**Flicker8k_Dataset:** https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/Flickr8k_Dataset.zip
+**Flickr_8k_text:** https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/Flickr8k_text.zip
+
