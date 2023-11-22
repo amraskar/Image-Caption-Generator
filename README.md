@@ -30,7 +30,7 @@ I needed to preprocess the input image first so that it was usable for our model
 *	Made the range of pixel values [-1, 1].
 
 # 
-* Appended the <start> and <end> identifier for each caption.
+* Appended the =start= and =end= identifier for each caption.
 * So that LSTM model can identify the starting and ending of the caption.
 
 # Tokenizing the vocabulary
