@@ -45,3 +45,16 @@ I needed to preprocess the input image first so that it was usable for our model
     * x1 is the 2048 feature vector of that image
     * x2 is the input text sequence
     * y is the output text sequence -the next word in the sequence- that the model has to predict.
+
+# Defining the CNN-RNN model
+I used the Keras Model from Functional API. It will consist of three major parts:
+
+* The feature extracted from the image has a size of 2048, with a dense layer, I reduced the dimensions to 256 nodes.
+* An embedding layer will handle the textual input, followed by the LSTM layer.
+* merging the output from the above two layers, followed by dense layer to make the final prediction.
+* The final layer will contain the number of nodes equal to our vocabulary size.
+
+Visual representation of the final model is given below
+![alt text](https://github.com/amraskar/Image-Caption-Generator/blob/f174754b5b16057dc232669d2451e8c867304564/model.png "Number of Fresh, Certified Fresh and Rotten Movies")
+
+
