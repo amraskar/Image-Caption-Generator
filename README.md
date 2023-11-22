@@ -21,12 +21,14 @@ I needed to clean it up so that it was usable for our model. I made the followin
 *	Removed words with numbers in them.
 *	Made columns for the number of actors in each movie.
 
-# Model Building
-
-## Xception Pretrained Model:
-
+# Xception Pretrained Model:
+The image features will be extracted from Xception - pre-trained model that have been already trained on large datasets-.
 I needed to preprocess the input image first so that it was usable for our model. I made the following changes:
 
 *	Resized every image to (299, 299) -Xception's default input size-.
 *	Added an extra dimension to the array to represent the batch size, because Xception is designed to process images in batches.
 *	Made the range of pixel values [-1, 1].
+
+# 
+Append the <start> and <end> identifier for each caption
+So that LSTM model can identify the starting and ending of the caption
