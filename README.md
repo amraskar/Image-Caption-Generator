@@ -65,8 +65,8 @@ Caption: start race car driving through the forest end
 
 Example 2:
 Caption: start white dog is running through the water end
-![alt text](https://github.com/amraskar/Image-Caption-Generator/blob/f174754b5b16057dc232669d2451e8c867304564/Example_2.png "Example 2")
+![alt text](https://github.com/amraskar/Image-Caption-Generator/blob/0246ae8d77eee33f58db2014ecf381f54022f201/Example_2.png "Example 2")
 
 Example 3:
 Caption: start man is climbing up rock face end
-![alt text](https://github.com/amraskar/Image-Caption-Generator/blob/f174754b5b16057dc232669d2451e8c867304564/Example_3.png "Example 3")
+![alt text](https://github.com/amraskar/Image-Caption-Generator/blob/0246ae8d77eee33f58db2014ecf381f54022f201/Example_3.png "Example 3")
