@@ -42,6 +42,6 @@ I needed to preprocess the input image first so that it was usable for our model
 * I have to provide input and output to the model for training
 * The input to the model is [x1, x2] and the output will be y where:
   
-* x1 is the 2048 feature vector of that image
-* x2 is the input text sequence
-* y is the output text sequence -the next word in the sequence- that the model has to predict.
+** x1 is the 2048 feature vector of that image
+** x2 is the input text sequence
+** y is the output text sequence -the next word in the sequence- that the model has to predict.
