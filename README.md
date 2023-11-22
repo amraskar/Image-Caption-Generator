@@ -23,11 +23,10 @@ I needed to clean it up so that it was usable for our model. I made the followin
 
 # Model Building
 
-I needed to preprocess the input  so that it was usable for our model. I made the following changes:
+## Xception Pretrained Model:
 
-*	Removed Remove dash (-) from captions.
-*	Converted captions to lowercase.
-*	Removed punctuation.
-*	Removed hanging 's and a.
-*	Removed words with numbers in them.
-*	Made columns for the number of actors in each movie.
+I needed to preprocess the input image first so that it was usable for our model. I made the following changes:
+
+*	Resized every image to (299, 299) -Xception's default input size-.
+*	Added an extra dimension to the array to represent the batch size, because Xception is designed to process images in batches.
+*	Made the range of pixel values [-1, 1].
