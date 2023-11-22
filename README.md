@@ -11,3 +11,13 @@
 **Flicker8k_Dataset:** https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/Flickr8k_Dataset.zip
 **Flickr_8k_text:** https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/Flickr8k_text.zip
 
+## Data Cleaning
+I needed to clean it up so that it was usable for our model. I made the following changes:
+
+*	Removed Remove dash (-) from captions.
+*	Converted captions to lowercase.
+*	Removed punctuation.
+*	Removed hanging 's and a.
+*	Removed words with numbers in them.
+*	Made columns for the number of actors in each movie.
+
