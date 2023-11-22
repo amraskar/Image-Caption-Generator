@@ -19,7 +19,6 @@ I needed to clean it up so that it was usable for the model. I made the followin
 *	Removed punctuation.
 *	Removed hanging 's and a.
 *	Removed words with numbers in them.
-*	Made columns for the number of actors in each movie.
 
 # Xception Pretrained Model:
 The image features will be extracted from Xception - pre-trained model that have been already trained on large datasets-.
