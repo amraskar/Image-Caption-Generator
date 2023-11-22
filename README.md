@@ -1,2 +1,8 @@
-# Image-Caption-Generator
-The objective of the project is to apply the concepts of a CNN and LSTM model and build a working model of Image caption generator by implementing CNN with LSTM.
+# Image Caption Generator: Project Overview 
+* In this project, i implemented the caption generator using CNN (Convolutional Neural Networks) and LSTM (Long short term memory).
+* The image features will be extracted from Xception which is a CNN model trained on the imagenet dataset.
+* And then i feed the features into the LSTM model which will be responsible for generating the image captions.
+
+## Code and Resources Used 
+**Python Version:** 3.11  
+**Packages:** string, os, PIL, pickle, numpy, matplotlib, tensorflow, keras
