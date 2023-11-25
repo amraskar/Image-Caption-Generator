@@ -53,6 +53,8 @@ I used the Keras Model from Functional API. It will consist of three major parts
 * merging the output from the above two layers, followed by dense layer to make the final prediction.
 * The final layer will contain the number of nodes equal to our vocabulary size.
 
+**Limitations:** Some key points to note are that the model depends on the data, so, it cannot predict the words that are out of its vocabulary.
+
 Visual representation of the final model is given below
 ![alt text](https://github.com/amraskar/Image-Caption-Generator/blob/f174754b5b16057dc232669d2451e8c867304564/model.png "Visual representation of the final model")
 
